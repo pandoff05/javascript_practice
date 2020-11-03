@@ -30,7 +30,7 @@ const getEachChapterLink = function (URLPage) {
 
 //Full Novel
 const novelPageLink = function (URLPage)  {
-  return request({
+  request({
     method: 'GET',
     url: URLPage
   }, (err, res, body) => {
